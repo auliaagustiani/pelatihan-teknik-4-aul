@@ -1,6 +1,7 @@
 @extends('master')
 
 @section('detail_produk')
+<body style="background-color: #F3EAE3;">
 <div class="container my-5">
     <div class="col-md-8">
     <a href="/" class="btn btn-secondary mb-3">Kembali ke Laptop Si Unyil</a>
@@ -33,4 +34,5 @@
         </div>
     </div>
 </div>
+</body>
 @endsection
