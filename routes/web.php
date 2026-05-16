@@ -1,7 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
 Route::get('/', function () {
     return view('welcome');
+});
+Route::get('/menu', function () {
+    return view('welcome');
+});
+Route::get('detail-produk', function () {
+    return view('detail-produk');
 });
